@@ -135,9 +135,6 @@
     }
 }
 
-
-
-
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -167,3 +164,34 @@
     width: 60px;
     height: 20px;
 }
+
+/* Esercizio 12 */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: top 1s linear 2 alternate;
+}
+
+@keyframes top{
+    0% {
+        left: 10%;
+    }
+    100%{
+        left: 69%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom 1s linear 2 alternate;
+}
+
+
+@keyframes bottom{
+    0% {
+        right: 20%;
+    }
+    100%{
+        right: 69%;
+    }
+}
+
+/* Esercizio 13 */
